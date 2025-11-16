@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(101, 74, 128);
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+h1 {
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    line-height: 50px; /* centraliza verticalmente */
+    margin: 0;
+}
+
+/* Caixa de formulário */
+fieldset {
+    background-color: rgb(90, 66, 112);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Texto do legend */
+legend {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* Inputs e selects */
+input, select {
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    width: 200px;
+}
+
+input:focus, select:focus {
+    background-color: #e0e0e0;
+    outline: none;
+}
+
+/* Labels */
+label {
+    color: whitesmoke;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Botão */
+button {
+    border-radius: 10px;
+    height: 52px;
+    width: 200px;
+    margin-top: 15px;
+    border: none;
+    background-color: aliceblue;
+    font-weight: bold;
+    transition: transform 0.25s, background-color 0.25s;
+}
+
+button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    transform: scale(1.05);
+}

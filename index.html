@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB PONTO</title>
+    <link rel="stylesheet" href="ponto.css">
+</head>
+<body>
+    <h1>BB PONTO</h1>
+
+    <form action="ponto2.html" method="get">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            
+            <label for="setor">SETOR:</label>
+            <select name="setor" id="setor" required>
+                <option selected disabled value="">Selecione o setor</option>
+                <option>RH</option>
+                <option>LABORATÓRIO</option>
+                <option>PROJETOS</option>
+                <option>MARKETING</option>
+            </select>
+            <br><br>
+
+            <label for="nome">NOME:</label>
+            <select name="nome" id="nome" required>
+                <option selected disabled value="">Selecione o seu nome</option>
+                <option>LUCAS ASDSADASDA</option>
+                <option>SOUSA ASDASDADSASD</option>
+                <option>SILVA DASDADAA</option>
+                <option>JSJJSJJ ASDASDASD</option>
+            </select>
+            <br><br>
+
+            <label for="horario">HORÁRIO:</label>
+            <input type="datetime-local" name="horario" id="horario" required>
+            <br><br>
+
+            <button type="submit">CONFIRMAR ENVIO</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
